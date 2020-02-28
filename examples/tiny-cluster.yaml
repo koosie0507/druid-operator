@@ -91,13 +91,6 @@ spec:
       volumes:
         - name: data-volume
           emptyDir: {}
-      resources:
-        requests:
-          memory: "2G"
-          cpu: "2"
-        limits:
-          memory: "2G"
-          cpu: "2"
 
     coordinators:
       nodeType: "coordinator"
@@ -125,13 +118,6 @@ spec:
       volumes:
         - name: data-volume
           emptyDir: {}
-      resources:
-        requests:
-          memory: "2G"
-          cpu: "2"
-        limits:
-          memory: "2G"
-          cpu: "2"
 
     historicals:
       nodeType: "historical"
@@ -156,10 +142,3 @@ spec:
       volumes:
         - name: data-volume
           emptyDir: {}
-      resources:
-        requests:
-          memory: "2G"
-          cpu: "2"
-        limits:
-          memory: "2G"
-          cpu: "2"
