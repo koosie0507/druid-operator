@@ -49,13 +49,6 @@ spec:
               name: zk-fwr-port
             - containerPort: 3888
               name: zk-elec-port
-          resources:
-            limits:
-              cpu: 1
-              memory: 512Mi
-            requests:
-              cpu: 1
-              memory: 512Mi
           volumeMounts:
             - mountPath: /data
               name: druid-test-zk-data

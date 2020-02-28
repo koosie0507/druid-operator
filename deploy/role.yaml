@@ -15,10 +15,12 @@ rules:
   - events
   - configmaps
   - secrets
+  - poddisruptionbudgets
   verbs:
   - '*'
 - apiGroups:
   - apps
+  - policy
   resources:
   - deployments
   - daemonsets
