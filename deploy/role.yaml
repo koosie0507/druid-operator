@@ -26,6 +26,7 @@ rules:
   - daemonsets
   - replicasets
   - statefulsets
+  - poddisruptionbudgets
   verbs:
   - '*'
 - apiGroups:
